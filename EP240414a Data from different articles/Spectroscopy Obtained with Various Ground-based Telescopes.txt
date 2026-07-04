@@ -1,0 +1,35 @@
+Title: The Einstein Probe transient Ep240414a: Linking Fast X-ray Transients,
+    Gamma-ray Bursts and Luminous Fast Blue Optical Transients 
+Authors: van Dalen J.N.D., Levan A.J, Jonker P.G., Malesani D.B., Izzo L., 
+    Sarin N., Quirola-Vasquez J., Sanchez D.M., de Ugarte Postigo A., 
+    van Hoof A.P.C., Torres M.A.P., Schulze S., Littlefair S.P., Chrimes A., 
+    Ravasio M.E., Bauer F.E., Martin-Carrillo A., Fraser M., 
+    van der Horst A.J., Jakobsson P., O’Brien P., De Pasquale M., Pugliese G.,
+    Sollerman J., Tanvir N.R., Zafar T., Anderson J.P., Galbany L., Gal-Yam A.,
+    Gromadzki M., Muller-Bravo T.E., Ragosta F., Terwel J.H.
+Table: Spectroscopy obtained of EP240414a with various ground-based
+    telescopes for this work.
+================================================================================
+Byte-by-byte Description of file: apjladbc7et2_mrt.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units Label                 Explanations
+--------------------------------------------------------------------------------
+   1-  3 A3     --      Telescope             Name of the telescope used for the observation
+   5- 13 A9     --      Instrument            Name of the instrument used for the observation
+  15- 33 A19    --      ObservationTime       Time of the observation in UT (1)
+  35- 41 F7.4   d       SinceTriggerObserved  Time since the event trigger in the observer frame
+  43- 49 F7.4   d       SinceTriggerRest      Time since the event trigger in the rest frame
+  51- 55 A5     s       ExposureTime          Exposure time of the observation (2)
+  57- 63 A7     --      Grism                 ? Grism or arm of the spectrograph used
+--------------------------------------------------------------------------------
+Note (1): In year-month-day hours:minutes:seconds
+Note (2): In number x seconds or seconds
+--------------------------------------------------------------------------------
+GTC OSIRIS+   2024-04-15 00:46:43  0.6225  0.4443 1200  R1000R  
+VLT MUSE      2024-04-18 06:22:41  3.8558  2.7521 4x697         
+VLT FORS2     2024-04-19 06:26:14  4.8514  3.4628 4x600 300V    
+VLT X-shooter 2024-04-25 02:07:02 10.6783  7.6219 1200  UVB     
+VLT X-shooter 2024-04-25 02:07:07 10.6784  7.6220 1200  VIS     
+VLT X-shooter 2024-04-25 02:07:11 10.6785  7.6221 6x300 NIR     
+GTC OSIRIS+   2024-05-04 00:45:02 19.6214 14.0053 1200  R1000R  
+VLT MUSE      2024-07-04 00:40:28 80.6182 57.5433 4x697         

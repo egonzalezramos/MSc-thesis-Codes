@@ -1,0 +1,23 @@
+# Extended Data Table 1 (ASCII template)
+# Columns:
+# instrument, t_start_s, t_stop_s, model, Gamma, Gamma_err, kT_keV, kT_err, Nint_cm2, Nint_err, F_abs_erg_cm2_s, F_abs_err, F_abs_90ul, E1_keV, E2_keV, z, NH_gal_cm2
+# - F_abs_err is 1-sigma error for F_abs if available.
+# - F_abs_90ul is 90% upper limit (put value if row is an upper limit; else leave blank).
+# - Put '-' or empty for values not relevant to a row.
+instrument,t_start_s,t_stop_s,model,Gamma,Gamma_Err,Gamma_err,Beta,Beta_Err,Beta_err,E_peak,T_BB,T_BB_Error,T_BB_error,N_int,N_int_Error,N_int_error,F_abs,F_abs_Error,F_abs_error,CSTAT/(d.o.f)
+EP-WXT,19.0,174.0,PL,-3.1,0.7,0.8, , , , , , , ,7.4e21,4.1e21,3.7e21,6.5e-10,1.3e-10,1.0e-10,0.5123
+EP-WXT,19.0,174.0,BB, , , , , , , ,0.35,0.04,-0.04,3.9e21, , ,6.2e-10,0.9e-10,0.9e-10,0.6615
+EP-WXT,19.0,174.0,BPB,-1, , ,-2.9,0.6,0.9,1.3, , , ,4.0e21,6.2e21,3.4e21,6.6e-10,1.2e-10,1.1e-10,0.5175
+EP-WXT,19.0,49.0,PL,-3.9,0.9,0.9, , , , , , , ,7.4, , ,9.2e-10,3.5e-10,2.2e-10,0.916
+EP-WXT,49.0,73.0,PL,-2.7,0.5,0.6, , , , , , , ,7.4, , ,1.5e-9,0.5e-9,0.4e-9,1.3964
+EP-WXT,73.0,174.0,PL,-3.0,0.7,0.7, , , , , , , ,7.4, , ,3.5e-10,1.4e-10,0.9e-10,1.3573
+EP-FXT,7.5e3,20.1e3,PL,-2.2,0.3,0.4, , , , , , , ,2.4,2.2,2.0,1.8e-13,0.4e-13,0.3e-13,1.1924
+EP-FXT,196128,210816,PL,-2.2,0.3,0.4, , , , , , , ,2.4,2.2,2.0,8.3e-14,1.9e-14,1.5e-14,1.1924
+EP-FXT,3900096,3914784,PL,-2.2,0.3,0.4, , , , , , , ,2.4,2.2,2.0,2.8e-14, , , 
+Swift-XRT,364608,371520,PL,-2.2, , , , , , , , , ,2.4, , ,1.4e-13,0.6e-13,0.6e-13, 
+Swift-XRT,877824,900288,PL,-2.2, , , , , , , , , ,2.4, , ,7.7e-14, , , 
+Swift-XRT,1092960,1174176,PL,-2.2, , , , , , , , , ,2.4, , ,9.7e-14, , , 
+Swift-XRT,1814400,1839456,PL,-2.2, , , , , , , , , ,2.4, , ,7.3e-14, , , 
+Swift-XRT,2644704,2649888,PL,-2.2, , , , , , , , , ,2.4, , ,1.5e-13, , , 
+Swift-XRT,4201632,4277664,PL,-2.2, , , , , , , , , ,2.4, , ,9.9e-14, , , 
+Swift-XRT,4371840,4441824,PL,-2.2, , , , , , , , , ,2.4, , ,4.0e-14, , , 

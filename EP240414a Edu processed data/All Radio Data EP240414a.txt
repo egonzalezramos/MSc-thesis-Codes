@@ -1,0 +1,12 @@
+Since-Trigger-Observed(s)	Since-Trigger-Observed(d)	Frequency(GHz)	Flux-Density-(micro-Jankys)	Flux-Density-error-(micro-Jankys)	Upper Limit Nature	Source of Data
+558144.0	6.46	3.0	227.0	13.0	No	Bright et al. 2025
+1537056.0	17.79	8.0	1050.0		Yes-3sigma	Bright et al. 2025
+1641600.0	19.0	9.0	1419.0	17.0	No	Sun et al. 2025
+1641600.0	19.0	5.5	1011.0	20.0	No	Sun et al. 2025
+2633472.0	30.479999999999997	3.0	434.0	23.0	No	Bright et al. 2025
+5384448.0	62.32	3.0	304.0	17.0	No	Bright et al. 2025
+6818688.0	78.92	9.0	240.0	12.0	No	Bright et al. 2025
+6818688.0	78.92	5.5	320.0	16.0	No	Bright et al. 2025
+7492608.0	86.72	3.0	420.0		Yes-3sigma	Bright et al. 2025
+11306304.000000002	130.86	5.5	113.0	12.0	No	Bright et al. 2025
+11306304.000000002	130.86	9.0	73.0	8.0	No	Bright et al. 2025

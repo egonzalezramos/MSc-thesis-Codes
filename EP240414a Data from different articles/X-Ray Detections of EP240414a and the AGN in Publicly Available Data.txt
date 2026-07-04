@@ -1,0 +1,45 @@
+Title: The Einstein Probe transient Ep240414a: Linking Fast X-ray Transients,
+    Gamma-ray Bursts and Luminous Fast Blue Optical Transients 
+Authors: van Dalen J.N.D., Levan A.J, Jonker P.G., Malesani D.B., Izzo L., 
+    Sarin N., Quirola-Vasquez J., Sanchez D.M., de Ugarte Postigo A., 
+    van Hoof A.P.C., Torres M.A.P., Schulze S., Littlefair S.P., Chrimes A., 
+    Ravasio M.E., Bauer F.E., Martin-Carrillo A., Fraser M., 
+    van der Horst A.J., Jakobsson P., O’Brien P., De Pasquale M., Pugliese G.,
+    Sollerman J., Tanvir N.R., Zafar T., Anderson J.P., Galbany L., Gal-Yam A.,
+    Gromadzki M., Muller-Bravo T.E., Ragosta F., Terwel J.H.
+Table: X-ray detections of EP240414a and the AGN in publicly
+    available data used in this work. 
+================================================================================
+Byte-by-byte Description of file: apjladbc7et3_mrt.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units      Label                 Explanations
+--------------------------------------------------------------------------------
+   1- 14 A14    --         Telescope             Name of the telescope used for the observation
+  16- 19 A4     --         Instrument            Name of the instrument used for the observation
+  21- 39 A19    --         ObservationTime       Time of the observation in UT (1)
+  41- 47 F7.4   d          SinceTriggerObserved  Time since the event trigger in the observer frame
+  49- 55 F7.4   d          SinceTriggerRest      Time since the event trigger in the rest frame
+  57- 61 F5.2   ks         ExposureTime          ? Exposure time of the observation
+  63- 71 A9     keV        Band                  Observing band
+  73- 81 A9     --         Source                Observed source, either transient or AGN
+  83- 91 E9.1    mW.m-2    Flux                  Measured flux in band (2)
+  93-101 E9.1    mW.m-2  E_Flux                  ? One sigma upper bound to the measured flux
+ 103-112 E10.1   mW.m-2  e_Flux                  ? One sigma lower bound to the measured flux
+ 114-133 A20    --         Ref                   Reference if any (3)
+--------------------------------------------------------------------------------
+Note (1): In year-month-day hours:minutes:seconds
+Note (2): If no upper and lower bounds are given in E_Flux and e_Flux
+    then this value is an upper limit on the flux. The EP and Swift
+    fluxes in this table are not corrected for the AGN contamination.
+Note (3): References as follows:
+    Lian et al. (2024)   = [2024GCN.36091....1L];
+    Guan et al. (2024)   = [2024GCN.36129....1G];
+    Jonker et al. (2024) = [2024GCN.36681....1J].
+--------------------------------------------------------------------------------
+Einstein Probe WXT  2024-04-14 09:50:12  0.0000  0.0000       0.5 to 4  Transient 3x10-9                         Lian et al. (2024)   
+Einstein Probe FXT  2024-04-14 11:50:01  0.0757  0.0540  7.20 0.5 to 10 Transient 3.5x10-13 0.8x10-13  0.8x10-13 Guan et al. (2024)   
+Swift          XRT  2024-04-18 15:57     4.2500  3.0300  1.86 0.3 to 10 Transient 2.1x10-13 0.9x10-13 -0.7x10-13 This work            
+Swift          XRT  2024-04-27 01:38    12.7000  9.0600  2.80 0.3 to 10 Transient 1.8x10-13                      This work            
+Swift          XRT  2024-04-05 13:17    21.1000 15.1000  4.43 0.3 to 10 Transient 5.7x10-14 0.4x10-14 -0.3x10-14 This work            
+Chandra        ACIS 2024-06-16 05:35:02 62.8300 44.8000 10.70 0.5 to 10 Transient 8x10-15                        Jonker et al. (2024) 
+Chandra        ACIS 2024-06-16 05:35:02 62.8300 44.8000 10.70 0.5 to 10 AGN       5x10-14                        Jonker et al. (2024) 

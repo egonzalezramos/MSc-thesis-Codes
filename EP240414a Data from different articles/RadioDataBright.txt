@@ -1,0 +1,17 @@
+Table 1 
+A Summary of Our Radio Observations of EP240414a, Including Measurements from the RACS and VLASS Radio Sky Surveys
+
+
+Date	DeltaT	Flux Density	Frequency	Facility	
+(dd-mm-yy)	(days)	(muJy)	(GHz)		
+17-10-20	-1275	<905	0.885	ASKAP	
+20-04-24	6.46	227 +or- 13	3	MeerKAT	
+02-05-24	17.79	<1050	8	ATA	
+14-05-24	30.48	434 +or- 23	3	MeerKAT	
+15-06-24	62.32	304 +or- 17	3	MeerKAT	
+02-07-24	78.92	320 +or- 16	5.5	ATCA	
+02-07-24	78.92	240 +or- 12	9	ATCA	
+10-07-24	86.72	<420	3	VLASS	
+23-08-24	130.86	113 +or- 12	5.5	ATCA	
+23-08-24	130.86	73 +or- 8	9	ATCA	
+Note. DeltaT is given with respect to MJD 60414.4099.

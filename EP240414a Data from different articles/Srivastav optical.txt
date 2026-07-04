@@ -1,0 +1,70 @@
+Title: Identification of the optical counterpart of the fast X-ray
+    transient EP240414a 
+Authors: Srivastav S., Chen T.-W., Gillanders J.H., Rhodes L., Smartt S.J., 
+    Huber M.E., Aryan A., Yang S., Beri A., Cooper A.J., Nicholl M., 
+    Smith K.W., Stevance H.F., Carotenuto F., Chambers K.C., Aamer A., 
+    Angus C.R., Fulton M.D., Moore T., Smith I.A., Young D.R., de Boer T., 
+    Gao H., Lin C.-C., Lowe T., Magnier E.A., Minguez P., Pan Y., 
+    Wainscoat R.J.
+Table: Optical photometry of AT 2024gsa
+================================================================================
+Byte-by-byte Description of file: apjlad9c75t1_mrt.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label    Explanations
+--------------------------------------------------------------------------------
+   1-  8 F8.2   d       MJD      Modified Julian Date of observation
+  10- 14 F5.2   d       dt       Time since FXT trigger in observer-frame (1)
+  16- 27 A12    ---     INST     Instrument/Telescope
+  29- 29 A1     ---     Filter   Filter
+  31- 34 I4     s       EXPTIME  Total Exposure Time
+  36- 36 A1     ---   l_mag      Limit flag on mag
+  37- 41 F5.2   mag     mag      AB Magnitude in Filter (2)
+  43- 46 F4.2   mag   e_mag      ?="" AB Magnitude Error
+--------------------------------------------------------------------------------
+Note (1): T0, the time of trigger for EP240414a, is MJD 60414.40986.
+Note (2): Reported magnitudes are not corrected for the foreground Galactic 
+    extinction of E(B âˆ’ V ) = 0.033 AB mag, Schlafly & Finkbeiner (2011) 
+    [2011ApJ...737..103S].
+--------------------------------------------------------------------------------
+60414.58  0.17 LOT          r 3300  21.55 0.08 
+60414.60  0.19 LOT          i 3600  21.40 0.16 
+60414.75  0.34 LOT          g 1800  21.90 0.12 
+60415.61  1.2  LOT          i 1500  21.69 0.23 
+60415.64  1.23 LOT          r 5700  22.05 0.07 
+60416.40  1.99 PS           r  900  22.40      
+60416.41  2.0  PS           i  900  22.37 0.19 
+60416.42  2.01 PS           z  900  21.95 0.20 
+60416.56  2.15 LOT          r 6000  22.05 0.14 
+60416.64  2.23 LOT          i 5400  22.20 0.15 
+60417.38  2.97 PS           i 1200  20.86 0.05 
+60417.40  2.99 PS           z 1200  20.56 0.06 
+60417.51  3.1  LOT          r 3300  21.06 0.15 
+60418.39  3.98 PS           z  600  20.30 0.06 
+60418.39  3.98 PS           i  600  20.51 0.06 
+60418.40  3.99 PS           r  600  20.75 0.08 
+60418.41  4.0  PS           g  600  21.08 0.12 
+60419.36  4.95 PS           i  400  20.97 0.09 
+60419.37  4.96 PS           y  200  20.55 0.27 
+60419.37  4.96 PS           z  400  20.77 0.09 
+60419.38  4.97 PS           r  480  21.11 0.31 
+60419.39  4.98 PS           g  480  20.57      
+60420.37  5.96 PS           i  900  21.30 0.27 
+60420.38  5.97 PS           z  900  21.31 0.24 
+60432.36 17.95 PS           r  900  22.89 0.21 
+60432.37 17.96 PS           i  900  22.29 0.21 
+60432.38 17.97 PS           z  900  22.32 0.26 
+60436.37 21.96 PS           r  800  22.49      
+60436.38 21.97 PS           i  800  22.16 0.31 
+60436.39 21.98 PS           z 1200  22.02 0.31 
+60455.28 40.87 PS           i 1600  23.16 0.29 
+60455.30 40.89 PS           z 1600  22.63 0.22 
+60459.28 44.87 PS           i 1600  23.35 0.35 
+60459.30 44.89 PS           z 1600  22.65 0.21 
+60463.28 48.87 PS           i 1600  23.39 0.33 
+60463.30 48.89 PS           z 1600  22.67 0.25 
+60467.28 52.87 PS           i 1600  23.36 0.31 
+60467.30 52.89 PS           z 1600  23.14 0.32 
+60489.28 74.87 Gemini-North r 1260  24.28 0.27 
+60489.30 74.89 Gemini-North i 1260  23.76 0.28 
+60489.32 74.91 Gemini-North z 1080  23.05 0.27 
+60507.98 93.57 Gemini-South i  870  24.58  

@@ -1,0 +1,48 @@
+Title: The Einstein Probe transient Ep240414a: Linking Fast X-ray Transients,
+    Gamma-ray Bursts and Luminous Fast Blue Optical Transients 
+Authors: van Dalen J.N.D., Levan A.J, Jonker P.G., Malesani D.B., Izzo L., 
+    Sarin N., Quirola-Vasquez J., Sanchez D.M., de Ugarte Postigo A., 
+    van Hoof A.P.C., Torres M.A.P., Schulze S., Littlefair S.P., Chrimes A., 
+    Ravasio M.E., Bauer F.E., Martin-Carrillo A., Fraser M., 
+    van der Horst A.J., Jakobsson P., O’Brien P., De Pasquale M., Pugliese G.,
+    Sollerman J., Tanvir N.R., Zafar T., Anderson J.P., Galbany L., Gal-Yam A.,
+    Gromadzki M., Muller-Bravo T.E., Ragosta F., Terwel J.H.
+Table: Host galaxy photometry in an aperture of 2.1" and in the total
+    galaxy with possible contamination of a nearby star.
+================================================================================
+Byte-by-byte Description of file: apjladbc7et4_mrt.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label       Explanations
+--------------------------------------------------------------------------------
+   1-  5 A5     --      Telescope    Name of the telescope used for the observation
+   7- 14 A8     --      Instrument   Name of the instrument used for the observation
+  16- 26 A11    --      Filter       Filter in which the observation was taken
+  28- 32 F5.2   mag     MagAper      ? AB Magnitude in an aperture of 2.1" centered on the galaxy (1)
+  34- 37 F4.2   mag   e_MagAper      ? Uncertainty on the AB magnitude in an aperture of 2.1" centered on the galaxy (1 sigma)
+  39- 44 F6.3   mag     MagTot       ? AB Magnitude of the total galaxy light (2)
+  46- 50 F5.3   mag   e_MagTot       ? Uncertainty on the AB magnitude of the total galaxy light (1 sigma)
+--------------------------------------------------------------------------------
+Note (1):  This includes only ~2/3 of the light of the galaxy but
+    avoids contamination by a nearby star
+Note (2):  This is comparable to the literature, but might contain
+    contamination of a nearby star
+--------------------------------------------------------------------------------
+Swift UVOT     UVM2        21.65 0.14 21.510 0.090 
+GTC   HiPERCAM u                                   
+SDSS           u                      21.060 0.210 
+VLT   FORS2    g           20.46 0.02              
+SDSS           g                      20.076 0.030 
+VLT   FORS2    r           19.44 0.01              
+SDSS           r                      19.040 0.020 
+VLT   FORS2    i           18.98 0.01              
+SDSS           i                      18.590 0.020 
+VLT   FORS2    z           18.66 0.01              
+SDSS           z                      18.200 0.050 
+VISTA VIRCAM   Y           18.67 0.07              
+GTC   EMIR     J           18.63 0.01              
+VISTA VIRCAM   H           18.02 0.05              
+GTC   EMIR     K           18.03 0.01              
+WISE           CH1 3.4 mum            17.580 0.030 
+WISE           CH2 4.6 mum            17.680 0.050 
+WISE           CH3 12 mum             16.830 0.200 
+WISE           CH4 22 mum             15.260 0.580 
